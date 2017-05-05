@@ -1,0 +1,45 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/Bit1.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782882" FileType="45637" CompNumb="44" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782859" FileType="45637" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782843" FileType="45637" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.prm" FileDate="2016-10-31, 15:09:42" FileAge="1477942782797" FileType="8" CompNumb="4" />
+      <File Name="Sources/Events.h" FileDate="2016-10-31, 15:09:43" FileAge="1477942783146" FileType="131328" />
+      <File Name="Documentation/P2_1210764_1010545_COMPLETO.txt" FileDate="2016-10-31, 15:09:46" FileAge="1477942786249" FileType="3072" />
+      <File Name="Documentation/P2_1210764_1010545_COMPLETO_SIGNALS.txt" FileDate="2016-11-02, 13:18:54" FileAge="1478108934663" FileType="3072" />
+      <File Name="Sources/Events.c" FileDate="2016-10-31, 15:12:17" FileAge="1477942937233" FileType="131328" />
+      <File Name="Generated_Code/PWM1.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782882" FileType="45637" CompNumb="46" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782867" FileType="45637" />
+      <File Name="Generated_Code/AS1.h" FileDate="2016-11-02, 13:18:54" FileAge="1478108934638" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/PWM1.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782867" FileType="45637" CompNumb="46" />
+      <File Name="Generated_Code/AS1.c" FileDate="2016-11-02, 13:18:54" FileAge="1478108934627" FileType="45637" CompNumb="9" />
+      <File Name="Generated_Code/Cap1.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782882" FileType="45637" CompNumb="45" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782866" FileType="45637" />
+      <File Name="Generated_Code/TI1.h" FileDate="2016-10-31, 15:57:37" FileAge="1477945657004" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/Cap1.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782882" FileType="45637" CompNumb="45" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782674" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/CI2C1.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782914" FileType="45637" CompNumb="25" />
+      <File Name="Generated_Code/TI1.c" FileDate="2016-10-31, 15:57:37" FileAge="1477945657016" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/CI2C1.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782898" FileType="45637" CompNumb="25" />
+      <File Name="Sources/main.c" FileDate="2016-11-02, 13:16:07" FileAge="1478108767198" FileType="128" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782817" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782801" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/PE_Timer.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782833" FileType="45637" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782898" FileType="45637" CompNumb="44" />
+      <File Name="Documentation/P2_1210764_1010545_COMPLETO_Settings.xml" FileDate="2016-11-02, 13:18:54" FileAge="1478108934777" FileType="3072" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2016-10-31, 15:09:42" FileAge="1477942782853" FileType="45637" />
+      <File Name="Generated_Code/PE_Timer.c" FileDate="2016-10-31, 15:09:42" FileAge="1477942782817" FileType="45637" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>6</CodeGenReference>
+</CodeGenerationInfo>

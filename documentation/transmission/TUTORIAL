@@ -1,0 +1,47 @@
+CONEXIONES ESP8266 NODEMCU:
+
+* solo puede ser usado un sólo full UART (Rx,Tx) y TxD1 (D4) al mismo tiempo.
+
+* DemoQE128 --> RxD1 --> PIN7 --> Jumpers config (J6 - J8)? 
+* DemoQE128 --> TxD1 --> PIN5 --> Jumpers config (J7 - J8)?
+* DemoQE128 --> SCI  --> -0.3V to Vdd+0.3V
+* DemoQE128 --> Supply Voltage --> -0.3V to +3.8V
+
+* ESP8266 NodeMCU Module --> Vin = 5V
+
+********************************************
+AT COMMANDS:
+
+AT+CWMODE_DEF=2
+AT+CWSAP_DEF="GRUPO8","12345678",5,3,3
+AT+CWDHCP_CUR=0,1
+AT+CIPMUX=0
+AT+CIPSTART="UDP","192.168.5.2",1024,1024,0
+AT+CIPSEND=8,"192.168.4.2",1024
+
+*********************************************
+Matlab:
+
+!ping ip-address
+
+----------------------------------------------
+% creacion de instrumento udp
+obj1 = udp('192.168.4.1', 1024);
+
+% configuracion de instrumento udp
+set(obj1, 'DatagramTerminateMode', 'off');
+set(obj1, 'LocalPort', 1024);
+set(obj1, 'LocalPortMode', 'manual');
+set(obj1, 'ByteOrder', 'littleEndian');
+
+% abrir instrumento udp
+fopen(obj1);
+
+% comunicacion utilizando 'obj1'
+data1 = fscanf(obj1, '%c', 8);
+fprintf('DataReceived: %s\n',data1);
+
+% cerrar y eliminar instrumento udp
+fclose(obj1);
+delete(obj1);
+-----------------------------------------------

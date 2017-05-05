@@ -1,0 +1,39 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_Compiler_SearchUserPaths</name>
+      <values lines_count="2">
+        <Line>"${ProjDirPath}/Sources"</Line>
+        <Line>"${ProjDirPath}/Generated_Code"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="Generated_Code/AD1.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430532" FileType="45637" CompNumb="8" />
+      <File Name="Documentation/P2_1210764_1010545_ACEL.txt" FileDate="2016-10-15, 11:49:04" FileAge="1476548344880" FileType="3072" />
+      <File Name="Generated_Code/PE_Const.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430480" FileType="45637" />
+      <File Name="Generated_Code/AD1.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430527" FileType="45637" CompNumb="8" />
+      <File Name="Generated_Code/Bit1.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430495" FileType="45637" CompNumb="18" />
+      <File Name="Generated_Code/AS1.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430522" FileType="45637" CompNumb="9" />
+      <File Name="Sources/main.c" FileDate="2016-10-15, 12:25:27" FileAge="1476550527848" FileType="128" />
+      <File Name="Generated_Code/Bit1.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430495" FileType="45637" CompNumb="18" />
+      <File Name="Documentation/P2_1210764_1010545_ACEL_Settings.xml" FileDate="2016-10-15, 11:53:20" FileAge="1476548600031" FileType="3072" />
+      <File Name="Generated_Code/PE_Types.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430480" FileType="45637" />
+      <File Name="Generated_Code/AS1.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430517" FileType="45637" CompNumb="9" />
+      <File Name="Project_Settings/Linker_Files/ProcessorExpert.prm" FileDate="2016-10-15, 11:49:04" FileAge="1476548344768" FileType="8" CompNumb="4" />
+      <File Name="Generated_Code/TI1.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430511" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/PE_Error.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430480" FileType="45637" />
+      <File Name="Generated_Code/TI1.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430495" FileType="45637" CompNumb="10" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430464" FileType="45637" CompNumb="4" />
+      <File Name="Generated_Code/IO_Map.h" FileDate="2016-10-15, 12:40:30" FileAge="1476551430480" FileType="45637" />
+      <File Name="Sources/Events.h" FileDate="2016-10-15, 11:22:46" FileAge="1476546766868" FileType="131328" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430464" FileType="45637" CompNumb="4" />
+      <File Name="Documentation/P2_1210764_1010545_ACEL_SIGNALS.txt" FileDate="2016-10-15, 12:40:30" FileAge="1476551430538" FileType="3072" />
+      <File Name="Generated_Code/IO_Map.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430464" FileType="45637" />
+      <File Name="Generated_Code/Vectors.c" FileDate="2016-10-15, 12:40:30" FileAge="1476551430448" FileType="45637" CompNumb="4" />
+      <File Name="Sources/Events.c" FileDate="2016-10-15, 11:25:46" FileAge="1476546946113" FileType="131328" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>3</CodeGenReference>
+</CodeGenerationInfo>
